@@ -1,8 +1,7 @@
 ![](img-8.1.png) 
 
 We seldom control all the software in our systems. Sometimes we buy third-party pack-
-ages or use open source. Other times we depend on teams in our own company to produce
-components or subsystems for us. Somehow we must cleanly integrate this foreign code with our own. In this chapter we look at practices and techniques to keep the boundaries of
+ages or use open source. در مواقع دیگر ما به تیم هایی در شرکت خودمان بستگی داریم که اجزای سازنده یا زیر سیستم را برای خود تولید کنند. Somehow we must cleanly integrate this foreign code with our own. In this chapter we look at practices and techniques to keep the boundaries of
 our software clean.
 # Using Third-Party Code
 There is a natural tension between the provider of an interface and the user of an interface.
