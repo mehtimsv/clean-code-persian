@@ -15,9 +15,7 @@ Maps have a very broad interface with plenty of capabilities. Certainly this pow
 bility is useful, but it can also be a liability. For instance, our application might build up a
 Map and pass it around. Our intention might be that none of the recipients of our Map delete
 anything in the map. But right there at the top of the list is the clear() method. Any user of
-the Map has the power to clear it. Or maybe our design convention is that only particular
-types of objects can be stored in the Map, but Maps do not reliably constrain the types of
-objects placed within them. Any determined user can add items of any type to any Map.
+the Map has the power to clear it. یا شاید قرارداد طراحی ما این است که تنها انواع خاصی از اشیا را می توان در نقشه ذخیره کرد،اما نقشه ها به طور قابل اطمینان انواع اشیا موجود درون آن ها را محدود نمی کنند. هر کاربر مصمم می تواند هر نوع  را به هر نقشه ای اضافه کند 
 
 
 • clear() void – Map
