@@ -105,8 +105,12 @@ Third-party code helps us get more functionality delivered in less time. Where d
 when we want to utilize some third-party package? It’s not our job to test the third-party
 code, but it may be in our best interest to write tests for the third-party code we use.
 Suppose it is not clear how to use our third-party library. We might spend a day or two
-(or more) reading the documentation and deciding how we are going to use it. Then we
-might write our code to use the third-party code and see whether it does what we think. We
+(or more) reading the documentation and deciding how we are going to use it.
+
+وظیفه ما تست کردن کدهای اماده نیست اما ممکن است نوشتن تست کد برای کدهای اماده ای که استفاده میکنیم به نفع ما باشد.
+فرض کنید نحوه استفاده از کتابخانه اماده واضح نیست و ممکن دو یا چند روز صرف خواندن داکیومنت ها و یادگیری نحوه استفاده از کتابخانه شود.
+
+Then we might write our code to use the third-party code and see whether it does what we think. We
 would not be surprised to find ourselves bogged down in long debugging sessions trying to
 figure out whether the bugs we are experiencing are in our code or theirs.
 Learning the third-party code is hard. Integrating the third-party code is hard too.
