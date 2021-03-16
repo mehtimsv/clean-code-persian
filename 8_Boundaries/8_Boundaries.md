@@ -163,9 +163,13 @@ public void testLogAddAppender() {
 
 That worked; a log message that includes “hello” came out on the console! It seems odd
 that we have to tell the ConsoleAppender that it writes to the console.
+
 Interestingly enough, when we remove the ConsoleAppender.SystemOut argument, we
 see that “hello” is still printed. But when we take out the PatternLayout, it once again com-
-plains about the lack of an output stream. This is very strange behavior.
+plains about the lack of an output stream. 
+جالب است وقتی توافق ConsoleAppend.SystemOut را حذف میکنیم ، میبینیم که "hello" هنوز چاپ نشده .اما وقتی "PatternLayout" را حذف میکنیم از فقدان جربان خروجی (Output Stream) گله میکند.
+
+This is very strange behavior.
 Looking a little more carefully at the documentation, we see that the default
 ConsoleAppender constructor is “unconfigured,” which does not seem too obvious or useful.
 This feels like a bug, or at least an inconsistency, in log4j.
