@@ -161,8 +161,8 @@ public void testLogAddAppender() {
 }
 ```
 
-That worked; a log message that includes “hello” came out on the console! It seems odd
-that we have to tell the ConsoleAppender that it writes to the console.
+که کار کرد یک پیام ورود به سیستم که شامل "سلام" است در کنسول منتشر شد! عجیب به نظر می رسد
+که باید به کنسول اپندر  بگوییم که روی کنسول می نویسد.
 Interestingly enough, when we remove the ConsoleAppender.SystemOut argument, we
 see that “hello” is still printed. But when we take out the PatternLayout, it once again com-
 plains about the lack of an output stream. This is very strange behavior.
