@@ -102,7 +102,12 @@ public APIs.
 
 # Exploring and Learning Boundaries
 Third-party code helps us get more functionality delivered in less time. Where do we start
-when we want to utilize some third-party package? It’s not our job to test the third-party
+when we want to utilize some third-party package?
+ترجمه :
+کاوش و یادگیری مرز ها 
+کد طرف سوم (کد شخص ثالث یا کد های آماده ) به ما کمک می کند تا در زمان کمتری عملکرد بیشتری را تحویل بگیریم.
+وقتی میخواهیم از برخی از بسته های طرف سوم (شخص ثالث ) استفاده کنیم از کجا شروع می کنیم .
+ It’s not our job to test the third-party
 code, but it may be in our best interest to write tests for the third-party code we use.
 Suppose it is not clear how to use our third-party library. We might spend a day or two
 (or more) reading the documentation and deciding how we are going to use it. Then we
