@@ -1,4 +1,4 @@
-![](img-8.1.png) 
+﻿![](img-8.1.png) 
 
 We seldom control all the software in our systems. Sometimes we buy third-party pack-
 ages or use open source. Other times we depend on teams in our own company to produce
@@ -112,11 +112,11 @@ figure out whether the bugs we are experiencing are in our code or theirs.
 Learning the third-party code is hard. Integrating the third-party code is hard too.
 Doing both at the same time is doubly hard. What if we took a different approach? Instead
 of experimenting and trying out the new stuff in our production code, we could write some
-tests to explore our understanding of the third-party code. Jim Newkirk calls such tests
-learning tests.1
-In learning tests we call the third-party API, as we expect to use it in our application.
-We’re essentially doing controlled experiments that check our understanding of that API.
-The tests focus on what we want out of the API.
+tests to explore our understanding of the third-party code. Jim Newkirk
+
+(جیم  نیوکرک)چنین آزمون هایی را آزمون های یادگیری1 می نامد.
+. در آزمون های یادگیری ، ما API شخص ثالث را فراخوانی میکنیم ، زیرا انتظار داریم از آن در برنامه خود استفاده کنیم. ما اساساً آزمایش های کنترل شده ای را انجام می دهیم که درک ما از آن API را بررسی می کند.
+این تست ها بر روی آنچه ما از API می خواهیم متمرکز شده اند. 
 
 # Learning log4j
 Let’s say we want to use the apache log4j package rather than our own custom-built log-
