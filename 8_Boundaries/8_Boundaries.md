@@ -74,9 +74,7 @@ be a lot of places to fix if the interface to Map ever changes. You might think 
 to be unlikely, but remember that it changed when generics support was added in Java 5.
 Indeed, we’ve seen systems that are inhibited from using generics because of the sheer
 magnitude of changes needed to make up for the liberal use of Maps.
-A cleaner way to use Map might look like the following. No user of Sensors would care
-one bit if generics were used or not. That choice has become (and always should be) an
-implementation detail.
+یک روش تمیزتر برای استفاده از مپ  ممکن است مانند روش زیر باشد. هیچ استفاده کننده ای از حسگرها یک بیت اهمیت نمی دهد که آیا از مواد عامیانه استفاده می شود یا نه. این انتخاب به جزئیات پیاده سازی تبدیل شده است (و همیشه باید باشد).
 
 ```java
 public class Sensors {
