@@ -119,9 +119,7 @@ We’re essentially doing controlled experiments that check our understanding of
 The tests focus on what we want out of the API.
 
 # Learning log4j
-Let’s say we want to use the apache log4j package rather than our own custom-built log-
-ger. We download it and open the introductory documentation page. Without too much
-reading we write our first test case, expecting it to write “hello” to the console.
+فرض کنیم می‌خواهیم به جای استفاده از لاگر خودساخته‌مان، از apache log4j استفاده کنیم. آن را دانلود کرده و صفحه اول راهنمای آن را باز می‌کنیم. و بدون صرف وقت زیاد اولین تست کیس خود را، که از آن انتظار داریم "hello" را در کنسول چاپ کند، می‌نویسیم.‎
 
 
 ```java
