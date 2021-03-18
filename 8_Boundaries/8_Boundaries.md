@@ -1,4 +1,4 @@
-![](img-8.1.png) 
+﻿![](img-8.1.png) 
 
 We seldom control all the software in our systems. Sometimes we buy third-party pack-
 ages or use open source. Other times we depend on teams in our own company to produce
@@ -99,6 +99,8 @@ are advising you not to pass Map s (or any other interface at a boundary) around
 system. If you use a boundary interface like Map, keep it inside the class, or close family
 of classes, where it is used. Avoid returning it from, or accepting it as an argument to,
 public APIs.
+
+ترجمه:اگر از یک رابط مرزی مانند مپ استفاده میکنید، آن را داخل کلاس یا خانواده نزدیک کلاس ها، جایی که از آن استفاده میشود.از برگرداندن آن یا پذیرش آن به عنوان استدلال برای ای پی آی های عمومی خودداری کنید
 
 # Exploring and Learning Boundaries
 Third-party code helps us get more functionality delivered in less time. Where do we start
