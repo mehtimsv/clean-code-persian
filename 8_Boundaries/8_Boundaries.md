@@ -109,10 +109,8 @@ Suppose it is not clear how to use our third-party library. We might spend a day
 might write our code to use the third-party code and see whether it does what we think. We
 would not be surprised to find ourselves bogged down in long debugging sessions trying to
 figure out whether the bugs we are experiencing are in our code or theirs.
-Learning the third-party code is hard. Integrating the third-party code is hard too.
-Doing both at the same time is doubly hard. What if we took a different approach? Instead
-of experimenting and trying out the new stuff in our production code, we could write some
-tests to explore our understanding of the third-party code. Jim Newkirk calls such tests
+فهمیدن کد شخص ثالث سخت است، ادغام کردن کد شخص ثالث نیز سخت است. انجام همزمان این کارها دو برابر سخت است. اگر رویکرد دیگری داشته باشیم چطور؟ به جای تجربه کردن و امتحان کردن چیز های جدید در تولید کد، میتوانیم تست هایی برای کشف کردن فهممان از کد شخص ثالث بنویسیم.
+ Jim Newkirk calls such tests
 learning tests.1
 In learning tests we call the third-party API, as we expect to use it in our application.
 We’re essentially doing controlled experiments that check our understanding of that API.
