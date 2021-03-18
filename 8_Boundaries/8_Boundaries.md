@@ -1,4 +1,4 @@
-![](img-8.1.png) 
+﻿![](img-8.1.png) 
 
 We seldom control all the software in our systems. Sometimes we buy third-party pack-
 ages or use open source. Other times we depend on teams in our own company to produce
@@ -91,9 +91,7 @@ public class Sensors {
 The interface at the boundary ( Map) is hidden. It is able to evolve with very little impact on
 the rest of the application. The use of generics is no longer a big issue because the casting
 and type management is handled inside the Sensors class.
-This interface is also tailored and constrained to meet the needs of the application. It
-results in code that is easier to understand and harder to misuse. The Sensors class can
-enforce design and business rules.
+هم چنین این رابط محدود و متناسب با نیازهای برنامه عمل میکند.در نتیجه کدی حاصل میشود که فهم آن آسان تر و سو استفاده از آن دشوارتر است. سنسورکلاس ها نحوه طراحی و قوانین تجاری را تایین میکنند.
 We are not suggesting that every use of Map be encapsulated in this form. Rather, we
 are advising you not to pass Map s (or any other interface at a boundary) around your
 system. If you use a boundary interface like Map, keep it inside the class, or close family
