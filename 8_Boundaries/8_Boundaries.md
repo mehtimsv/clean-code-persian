@@ -169,6 +169,7 @@ plains about the lack of an output stream. This is very strange behavior.
 Looking a little more carefully at the documentation, we see that the default
 ConsoleAppender constructor is “unconfigured,” which does not seem too obvious or useful.
 This feels like a bug, or at least an inconsistency, in log4j.
+این رفتار بسیار عجیبی است.با کمی دقت بیشتر در اسناد و مدارک متوجه می شویم که سازنده ی کنسول اپندر به صورت پیش فرض "پیکربندی نشده" است، که آنقدر واضح و مفید به نظر نمی رسد. چنین چیزی در لوگ ۴ جی یک اشکال یا حداقل یک تناقض به نظر می رسد.
 A bit more googling, reading, and testing, and we eventually wind up with Listing 8-1.
 We’ve discovered a great deal about the way that log4j works, and we’ve encoded that
 knowledge into a set of simple unit tests.
