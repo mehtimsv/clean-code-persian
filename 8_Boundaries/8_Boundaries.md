@@ -94,9 +94,13 @@ and type management is handled inside the Sensors class.
 This interface is also tailored and constrained to meet the needs of the application. It
 results in code that is easier to understand and harder to misuse. The Sensors class can
 enforce design and business rules.
-We are not suggesting that every use of Map be encapsulated in this form. Rather, we
+//We are not suggesting that every use of Map be encapsulated in this form. Rather, we
 are advising you not to pass Map s (or any other interface at a boundary) around your
-system. If you use a boundary interface like Map, keep it inside the class, or close family
+system ->
+ ما پیشنهاد نمی کنیم که هر استفاده از مپ در این فرم کپسوله شود بلکه ما
+به شما توصیه می کنیم که نقشه (یا هر رابط دیگر در یک مرز) از اطراف سیتم خودتان خود عبور ندهید.
+//
+. If you use a boundary interface like Map, keep it inside the class, or close family
 of classes, where it is used. Avoid returning it from, or accepting it as an argument to,
 public APIs.
 
