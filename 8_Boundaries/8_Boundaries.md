@@ -1,4 +1,4 @@
-![](img-8.1.png) 
+﻿![](img-8.1.png) 
 
 We seldom control all the software in our systems. Sometimes we buy third-party pack-
 ages or use open source. Other times we depend on teams in our own company to produce
@@ -13,7 +13,9 @@ at the boundaries of our systems.
 Let’s look at java.util.Map as an example. As you can see by examining Figure 8-1,
 Maps have a very broad interface with plenty of capabilities. Certainly this power and flexi-
 bility is useful, but it can also be a liability. For instance, our application might build up a
-Map and pass it around. Our intention might be that none of the recipients of our Map delete
+Map and pass it around.< . مطمئناً این قدرت و انعطاف پذیری
+ مفید است ، اما همچنین می تواند یک مسئولیت باشد. به عنوان مثال ، برنامه ما ممکن است ایجاد کند
+نقشه را بزنید و آن را دور بزنید.>Our intention might be that none of the recipients of our Map delete
 anything in the map. But right there at the top of the list is the clear() method. Any user of
 the Map has the power to clear it. Or maybe our design convention is that only particular
 types of objects can be stored in the Map, but Maps do not reliably constrain the types of
